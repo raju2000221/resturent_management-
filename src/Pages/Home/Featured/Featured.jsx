@@ -3,6 +3,7 @@ import SectionTitle from '../../../Components/SectionTitle/SectionTitle';
 import fetured from '../../../assets/home/featured.jpg'
 import './Featured.css'
 
+
 const Featured = () => {
     return (
         <div className='featured-item bg-fixed pt-8'>
