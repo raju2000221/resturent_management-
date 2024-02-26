@@ -28,7 +28,7 @@ const MainMenu = () => {
         heading={"Today's Offer"}
         >
         </SectionTitle>
-        <Menucategory items ={offered}></Menucategory>
+        <Menucategory title={"offerd"} items ={offered}></Menucategory>
         <Menucategory items ={dessert}
         title="Desert"
         coverImg={desertimg}
