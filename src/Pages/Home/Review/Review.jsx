@@ -11,7 +11,7 @@ import '@smastrom/react-rating/style.css'
 const Review = () => {
     const [review, setreview] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/revie')
+        fetch('http://localhost:5000/review')
             .then(res => res.json())
             .then(data => setreview(data))
 
